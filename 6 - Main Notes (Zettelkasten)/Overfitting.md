@@ -13,10 +13,12 @@
 It does not generalize to other inputs added to your model
 
 ### How to address overfitting
-- have more training examples
+- collect more data
 - use less features in lieau of insufficient data
 	- feature selection is key in this example
-- 
+- Regularization
+	- encourage the learning algo to reduce the parameters size for Wj
+![[Pasted image 20250709111644.png]]
 
 
 
