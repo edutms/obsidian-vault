@@ -21,10 +21,6 @@ It is a mechanism to **truncate lineage** of the DataFrame/RDD via materializing
 
 
 
-
-
-
-
 # References
 
 
