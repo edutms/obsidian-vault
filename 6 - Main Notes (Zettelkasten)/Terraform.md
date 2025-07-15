@@ -2,7 +2,7 @@
 
 ### Status: #baby
 
-### Tags: [[data-engineering]], [[machine-learning]]
+### Tags: [[data-engineering]],  [[IaC]]
 
 # Terraform
 
