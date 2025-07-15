@@ -16,7 +16,7 @@ GraphFrames is a Spark library that allows the building of vertex and edges data
 
 #### Usecases
 
-At BLab, I used it to deduplicate and create links between similar company names (trying to solve garbage-in garbage-out) by adding a fuzzymatch with [[Levenshtein]] and 
+At BLab, I used it to deduplicate and create links between similar company names (trying to solve garbage-in garbage-out) by adding a fuzzymatch with [[Levenshtein]] and create links of users, assessment completion etc.
 
 
 
