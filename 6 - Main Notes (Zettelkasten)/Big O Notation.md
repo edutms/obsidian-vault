@@ -2,7 +2,7 @@
 
 ### Status:  #child
 
-### Tags: #dsa #cs
+### Tags: [[software-engineering]]
 
 # Big O Notation
 
