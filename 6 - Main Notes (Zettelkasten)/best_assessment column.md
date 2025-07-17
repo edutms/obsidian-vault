@@ -10,7 +10,7 @@
 - Ver boto3.client 
 - ver tabela reviews.closed_reason e ver status
 	- bring more than one status
-	- 
+	-
 
 
 
