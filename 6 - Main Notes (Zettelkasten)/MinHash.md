@@ -2,7 +2,7 @@ Used in data mining and compsci, Min2025-07-17 08:06
 
 ### Status: #baby
 
-### Tags: [[machine-learning]]
+### Tags: [[machine-learning]] [[data-engineering]]
 
 # MinHash
 After using [[Hashing]] techiniques.
