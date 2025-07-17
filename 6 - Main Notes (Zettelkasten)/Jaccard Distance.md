@@ -6,7 +6,7 @@
 
 # What is Jaccard Distance
 
-Jaccard index is used for gauging similarity and diversity of sample sets.
+Jaccard index is used for gauging similarity and diversity of sample sets. It is used in [[MinHash]] techniques.
 
 ### Definition
 - Intersection size / union size
