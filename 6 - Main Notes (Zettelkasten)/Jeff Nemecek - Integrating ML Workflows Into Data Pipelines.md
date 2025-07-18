@@ -19,7 +19,9 @@ How does Disney intregrate ML tools in their data pipelines?
 - with profiling, just select columns that matter.
 
 How to navigate with business?
-
+ - try to go away from a Dashboard
+ - create articles/reports that might link to dashboards
+ - 
 
 
 
