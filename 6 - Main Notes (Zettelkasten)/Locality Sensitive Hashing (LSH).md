@@ -8,10 +8,10 @@
 ## What is?
 Locality Sensitive Hashing is a popular techinique within the *approximate* nearest neighbor search.
 
+![[Pasted image 20250721104159.png]]
 
 
-
-It is uses to compare searches and customers, finding product recomendations based on the purchasing history.
+It is uses to compare searches and customers, finding product recommendations based on the purchasing history.
 
 
 
