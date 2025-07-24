@@ -41,6 +41,33 @@ So here `a.__eq__(b)` will return `NotImplemented`, so Python will try then `b._
 
 # References
 
+http://docs.python.org/3/library/constants.html
+https://www.pythonmorsels.com/when-to-use-notimplemented/2025-07-24 15:15
+
+### Status: 
+
+### Tags:
+
+# [NotImplemented
+
+
+
+
+
+
+
+
+
+# References
+
+
+
+
+
+
+
+
+
 
 
 
