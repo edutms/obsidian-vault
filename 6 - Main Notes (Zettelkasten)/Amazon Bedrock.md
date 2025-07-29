@@ -28,7 +28,10 @@ To start using a FM, you must request access to a model before using it. After t
  - Set up a knowledge base that can query and evaluate your own data and text to then use it to generate responses to queries
  - Create agents by using a model to run the inference and make the orchestration work
  - Customize a model by feeding training and validation data to adjust to parameters for your use-case.
- - 
+
+
+
+Overall, Bedrock provides a built-in, OTS AI service with many capabilities. One point to consider is cost - it can be nebulous on how much this can impact budget if scaled-up.
 
 
 
