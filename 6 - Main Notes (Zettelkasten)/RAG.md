@@ -23,31 +23,85 @@ So, a context to use RAG is with internal company data - it allows you to feed y
 
 
 # References
+---
 
-#### 1. **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks**
+## 📜 Seminal Papers
 
-**Authors:** Patrick Lewis, Ethan Perez, Aleksandra Piktus, et al.  
-**Year:** 2020  
-**📎 Link:** [https://arxiv.org/abs/2005.11401](https://arxiv.org/abs/2005.11401)  
-🧠 **Why it matters:**  
-This is _the_ OG RAG paper from Facebook AI. Introduces the architecture that combines a dense retriever (like DPR) with a generator (like BART). Showed that RAG can outperform traditional open-domain QA systems.
+### 1. [**Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks** (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401)
+- **Summary**: Introduced the RAG architecture, combining dense passage retrieval with generative models like BART.
+- **Why it matters**: It's the foundational paper that formalized the RAG paradigm.
 
-#### 2. **Dense Passage Retrieval for Open-Domain Question Answering**
+---
 
-**Authors:** Vladimir Karpukhin, Barlas Oğuz, Sewon Min, et al.  
-**Year:** 2020  
-**📎 Link:** [https://arxiv.org/abs/2004.04906](https://arxiv.org/abs/2004.04906)  
-🧠 **Why it matters:**  
-This paper introduced **DPR**, the retrieval engine that underpins many RAG systems. It made dense retrieval _actually work_ for real-world QA tasks.
+### 2. [**Dense Passage Retrieval for Open-Domain QA** (Karpukhin et al., 2020)](https://arxiv.org/abs/2004.04906)
+- **Summary**: Proposes Dense Passage Retrieval (DPR), a dual-encoder model for retrieving documents using semantic similarity.
+- **Why it matters**: DPR became the de facto retriever for early RAG systems.
+
+---
+
+### 3. [**REALM: Retrieval-Augmented Language Model Pre-Training** (Guu et al., 2020)](https://arxiv.org/abs/2002.08909)
+- **Summary**: Integrates retrieval directly into pretraining, allowing the model to learn to find and use relevant text spans.
+- **Why it matters**: Early, influential work from Google on retrieval-aware pretraining.
+
+---
+
+### 4. [**Fusion-in-Decoder (FiD)** (Izacard & Petroni, 2020)](https://arxiv.org/abs/2007.01282)
+- **Summary**: Explores how to integrate multiple retrieved passages efficiently using early fusion (before decoding).
+- **Why it matters**: Enhanced multi-document conditioning and generation quality.
+
+---
+
+### 5. [**ColBERT: Contextualized Late Interaction over BERT** (Khattab & Zaharia, 2020)](https://arxiv.org/abs/2004.12832)
+- **Summary**: Proposes a scalable, late-interaction dense retrieval method.
+- **Why it matters**: Allows high-quality retrieval with better latency characteristics.
+
+---
+
+## 🧪 Emerging Research & Techniques
+
+### 6. [**Self-RAG** (Asai et al., 2023)](https://arxiv.org/abs/2307.06981)
+- **Summary**: The model iteratively refines its own queries to improve retrieval and final answers.
+- **Why it matters**: Bridges retrieval and generation quality in a self-improving loop.
+
+### 7. [**InstructRAG** (Liu et al., 2023)](https://arxiv.org/abs/2310.12731)
+- **Summary**: Enhances RAG pipelines with instruction-following LLMs to better structure retrieval and prompt engineering.
+- **Why it matters**: Improves real-world performance by making the pipeline more modular and controllable.
+
+---
+
+## 🧰 Tools & Frameworks
+
+- [**LangChain**](https://www.langchain.com)  
+  Orchestration framework for building LLM apps with RAG, agents, tools, and memory.
+
+- [**LlamaIndex (GPT Index)**](https://docs.llamaindex.ai)  
+  Framework for RAG pipelines focused on document loaders, vector stores, and query routing.
+
+- [**OpenAI: RAG vs Fine-Tuning Blog**](https://openai.com/blog/fine-tuning-vs-rag)  
+  Explains when to use RAG versus model fine-tuning — practical guidance from OpenAI.
+
+---
+
+## 📌 Related Concepts
+
+- **Vector Databases**: FAISS, Pinecone, Weaviate, Qdrant, OpenSearch
+- **Prompt Engineering**: Use of context windows, chunking, and system instructions
+- **Dense vs Sparse Retrieval**: DPR (dense), BM25 (sparse), hybrid models
+
+---
+
+## 🧠 Summary
+
+RAG is a powerful strategy for enhancing LLMs with real-time knowledge retrieval. It's ideal for domains where up-to-date or proprietary information is required without retraining the base model.
+
+Use it when:
+- You need grounded, factual outputs
+- Your data changes frequently
+- You want to avoid costly fine-tuning
+
+---
 
 
-#### 3. **REALM: Retrieval-Augmented Language Model Pre-Training**
-
-**Authors:** Kelvin Guu, Kenton Lee, Zora Tung, et al.  
-**Year:** 2020  
-**📎 Link:** [https://arxiv.org/abs/2002.08909](https://arxiv.org/abs/2002.08909)  
-🧠 **Why it matters:**  
-From Google Research. One of the earliest frameworks where a language model learns to retrieve _during pretraining_. A more baked-in approach than RAG, which is modular.
 
 
 
