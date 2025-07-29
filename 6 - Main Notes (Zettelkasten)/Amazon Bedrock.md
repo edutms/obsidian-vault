@@ -26,8 +26,9 @@ Bedrock provies access to more than 100 foundational models from leading AI comp
 
 # References
 
+[Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/foundation-models-reference.html)
 
-
+[Amazon Bedrock page](https://aws.amazon.com/bedrock/)
 
 
 
