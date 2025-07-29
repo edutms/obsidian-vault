@@ -18,6 +18,9 @@ It also provides it's built-in orchestration called [Amazon Bedrock Flows] that 
 
 Bedrock provies access to more than 100 foundational models from leading AI companies, all with evaluation tools to pick the best model given the perfomance and cost needs.
 
+Allows the usage of many models from most AI companies such as Anthropic, Amaozn, DeepSeek, Meta, MistralAI etc.
+#### Foundational Model
+A [[Foundational Model]] is an AI model with 
 
 
 
