@@ -48,6 +48,7 @@ Amazon Textract cost for Detect Document Text API= $1.50 [100 applications/day 
 
 # References
 
+[Pricing page](https://aws.amazon.com/comprehend/pricing/?pg=ln&sec=hs)
 
 
 
