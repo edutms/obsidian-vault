@@ -10,7 +10,7 @@ Amazon Comprehend is Amazon's NLP solution for text-based documentation, capable
 ## Examples
 
 
-### Pricing 
+## Pricing 
 For this current project ideally it would be using Topic Modeling. This method identifies relevant terms, topics from the documentation already stored in S3. It will identify the most common topics in the collect and organize it in groups belonging to which topic.
 ### Custom entities and classification
 
