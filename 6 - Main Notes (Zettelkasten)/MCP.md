@@ -5,7 +5,7 @@
 ### Tags: [[machine-learning]] [[data-engineering]]
 
 # What is  MCP?
-
+MCP stands for Model Context Protocol, 
 
 
 ## Descriptions
