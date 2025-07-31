@@ -4,7 +4,7 @@
 
 ### Tags: [[python]]
 
-# What is  _ _ name_ _  == `__main__``?
+# What is if _ _ name_ _  == `__main__``?
 
  _ _ name_ _  == `__main__` is a way of letting Python know which file to run.
 
@@ -15,9 +15,10 @@ If script:
 
 If module:
 - `__name__` takes the name of the imported file
-
+![[Pasted image 20250731092406.png]]
 ## Descriptions
 
+So, basically you use it when you create a file that will be a module in another python script and then it prevents running test code and verifications made on the module to the execution script.
 
 
 
