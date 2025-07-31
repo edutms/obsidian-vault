@@ -1,12 +1,11 @@
 2025-07-30 13:23
 
-### Status: #baby
+### Status: #child
 
 ### Tags: [[machine-learning]] [[data-engineering]]
 
 # What is  MCP?
-MCP stands for Model Context Protocol and it is an open stardard, open-source framework introduced by Anthropic to standardize the way AI systems such as LLMs integrate and share data with external tools, systems and data sources. MCP provides then a universal interface for file reading, function execution and contextual prompts handling. 
-
+MCP stands for Model Context Protocol and it is an open standard, open-source framework introduced by Anthropic to standardize the way AI systems such as LLMs integrate and share data with external tools, systems and data sources. MCP provides then a universal interface for file reading, function execution and contextual prompts handling. 
 
 ## Background
 
@@ -21,7 +20,6 @@ MCP has been used in SDE, automations and natural language automations.
 For example, one use case of MCPs is with allowing secure access to system tools and user files, so that in an enterprise setting the AI assistant, powered with MCP, can retrieve data from proprietary documents, CRMs and internal knowledge bases to allow faster and secure access to data.
 
 Another example is semantic search of academic papers, which allows researches to use AI to enhance their productivity and which in fact is already being provided by [[Zotero]].
-
 
 # References
 
