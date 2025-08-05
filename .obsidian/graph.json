@@ -11,20 +11,20 @@
       "query": "path:\"4 - Indexes\"  ",
       "color": {
         "a": 1,
-        "rgb": 6063574
+        "rgb": 14048348
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.5,
-  "nodeSizeMultiplier": 2.06689860026042,
-  "lineSizeMultiplier": 2.25351969401042,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.56944173177083,
+  "lineSizeMultiplier": 0.9027099609375,
   "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 1.25406901041667,
-  "linkStrength": 0.87451171875,
-  "linkDistance": 250,
-  "scale": 0.4025279559160921,
+  "centerStrength": 0.0147298177083333,
+  "repelStrength": 6.54622395833333,
+  "linkStrength": 0.241373697916667,
+  "linkDistance": 30,
+  "scale": 0.16019038157825832,
   "close": true
 }
