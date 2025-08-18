@@ -16,9 +16,27 @@ Implementing unit testing will allow us to make sure that:
 - Edge cases and bad data does not break the workflow
 
 
+## Examples
+
+#### Transformation functions
+- for example, a function that normalizes company names should always yield the same output
+	- "Gooogle Inc --> Google"
+
+#### SQL Queries
+- A join should not multiply rows in the table
+	- if it does, maybe there was an upstream failure
+- A filter should exclude *null* values as intended
+
+#### Data Quality rules
+- Columns expected to be unique values having no duplicates
+- Dates are contained in a given date range
+- Categorical fields only contains expected values
 
 
-## Descriptions
+### Know frameworks
+- [Great Expectations]
+- **dbt tests** (e.g., `unique`, `not_null`, `accepted_values`)
+
 
 
 
