@@ -102,7 +102,7 @@ CREATE TABLE employees_bad (
 );
 
 --- department_name and department_budget depend on department_id, not on employee_id
---- creates redun
+--- creates redundancy and potential inconsistencies
 
 --------
 
@@ -119,7 +119,5 @@ CREATE TABLE employees (
     department_id INT,
     FOREIGN KEY (department_id) REFERENCES departments(department_id)
 );
-
-
 
 ```
