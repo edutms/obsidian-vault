@@ -11,6 +11,10 @@ Is a data engineering technique used to alter database structures. It is the pro
 
 ### Normal Forms
 
+testing git on obsidian
+
+-
+
 #### 1NF
 - Each column contains atomic and indivisible values
 - Each column contains values of a single type
